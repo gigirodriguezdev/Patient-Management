@@ -1,0 +1,35 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.patients-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .patients-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-size {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .patients-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .modal-size {
+    width: 60%;
+  }
+}
+
+.modal-size {
+  width: 98%;
+}
