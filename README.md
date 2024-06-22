@@ -39,16 +39,11 @@ To start the development server, run:
 Using npm:
 
 ```bash
-npm start
+npm run dev
 ```
 
-Or using yarn:
 
-```bash
-yarn start
-```
 
-The project will start on http://localhost:3000.
 
 
 
